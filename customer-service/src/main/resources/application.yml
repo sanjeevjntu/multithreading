@@ -1,0 +1,19 @@
+server:
+  port: 8080
+okta:
+  oauth2:
+    ## Authorization Server - Okta who issues the url -> API-> Auth servers on Okta website
+    issuer: https://dev-312524.okta.com/oauth2/default
+    # The okta- customer-service-web app is registered with Okta, client Id and secret form there
+    client-id: 0oa18jfo8BPnHLm9v4x6
+    client-secret: dZe3mQWLEYigSUspIkoHA97jdEnVILahLVMsXAhS
+spring:
+  thymeleaf:
+    cache: false
+
+logging.level.org.springframework.boot.autoconfigure.logging: INFO
+logging.level.org.springframework.security: DEBUG
+logging.level.com.sanjeev: DEBUG
+
+logging:
+  level: INFO
