@@ -1,4 +1,4 @@
-package com.sanjeev.corejava;
+package com.sanjeev.corejava.misc;
 
 import java.util.Stack;
 

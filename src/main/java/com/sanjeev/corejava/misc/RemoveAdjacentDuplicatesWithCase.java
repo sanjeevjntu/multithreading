@@ -1,6 +1,7 @@
-package com.sanjeev.corejava;
+package com.sanjeev.corejava.misc;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Stack;
 
 public class RemoveAdjacentDuplicatesWithCase {
 

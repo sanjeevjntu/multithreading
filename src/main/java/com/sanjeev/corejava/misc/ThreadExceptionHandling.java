@@ -1,4 +1,4 @@
-package com.sanjeev.corejava;
+package com.sanjeev.corejava.misc;
 
 public class ThreadExceptionHandling {
 
