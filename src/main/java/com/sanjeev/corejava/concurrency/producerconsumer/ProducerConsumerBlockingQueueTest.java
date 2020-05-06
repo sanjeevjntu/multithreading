@@ -1,13 +1,13 @@
 package com.sanjeev.corejava.concurrency.producerconsumer;
 
 import java.util.Random;
-import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.PriorityBlockingQueue;
 
 public class ProducerConsumerBlockingQueueTest {
 
     public static void main(String[] args) throws InterruptedException {
-        var queue = new ArrayBlockingQueue<Integer>(10);// Thread safe collection queue
-
+      //  var queue = new ArrayBlockingQueue<Integer>(10);// Thread safe collection queue
+        var  queue = new PriorityBlockingQueue<Integer>(10);
         // Producer Threads
         Runnable producer = () -> {
           while(true) {
