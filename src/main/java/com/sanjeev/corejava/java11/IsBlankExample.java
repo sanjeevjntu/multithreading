@@ -1,5 +1,8 @@
 package com.sanjeev.corejava.java11;
 
+/**
+ * IsBlank(), strip(), stripLeading(), stripTrialing()
+ */
 public class IsBlankExample {
 
     public static void main(String[] args) {
